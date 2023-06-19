@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ImageBackgroundActivity">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Enter first number"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Enter second number"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageButton
+        android:id="@+id/imgbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/baseline_add_24" />
+
+    <ImageButton
+        android:id="@+id/imgbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/baseline_maximize_24" />
+
+    <ImageButton
+        android:id="@+id/imgbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/baseline_maximize_24" />
+    <ImageButton
+        android:id="@+id/imgbtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/baseline_add_24" />
+</LinearLayout>
